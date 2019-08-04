@@ -27,7 +27,7 @@ int invertVals = 1; // either 1 or -1
 int sumValue = 0;
 int sumOutput = 0;
 
-bool valueWrap = false; // false will cosntrain values to 0 - 1023, true will wrap values around if above 1023 or below 0
+bool valueWrap = false; // false will constrain values to 0 - 1023, true will wrap values around if above 1023 or below 0
 
 void setup() {
 
