@@ -1,5 +1,6 @@
 // 2019-08-04 The Tuesday Night Machines
 // thundersound's Generative CV Sequencer AE Modular Synth Module
+// Source Code for an Arduino Pro Micro
 // more info: http://forum.aemodular.com/thread/362/generative-ambient-cv-sequencer
 // License: CC-BY-NC-SA
 
