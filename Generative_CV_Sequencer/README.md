@@ -9,7 +9,7 @@ License: CC-BY-NC-SA
 
 HOW IT WORKS:
 
-There are three separate sequencer lanes, listening to specific events upon which the module's CV outputs are modified. Each lane has a bipolar potentiometer to set a fixed votlage which is added or subtracted from the CV output when an event occurs. 
+There are three separate sequencer lanes, listening to specific events upon which the module's CV outputs are modified. Each lane has a bipolar potentiometer to set a fixed voltage which is added or subtracted from the CV output when an event occurs. 
 
 L1: When a rising gate edge is detected on the L1 Input, a fixed voltage is added or subtracted to/from the L1 CV output, according to the bipolar potentiometer.  
 
