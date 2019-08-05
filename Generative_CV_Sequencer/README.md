@@ -26,3 +26,14 @@ The Wrap/Limit switch sets wether the output CV voltages are constrainted from 0
 The "Invert L2 & L3 Pot Value" gate input inverts the potentiometer value setting the added or subtracted voltage when an event occurs.
 
 The "Reset L1 & L2 Value" gate input sets the L1 and L2 CV outputs back to 0V on a rising edge. 
+
+
+POSSIBLE IMPROVEMENTS OR CHANGES YOU MIGHT TRY OUT:
+
+- Scale the CV outputs to the Op-Amps' rail-to-rail range (i.e. 0V to a little bit below 5V) either in software or using a voltage divider.
+
+- Try out lower resistor values, even down to 270 Ohm, for the RC Filter circuits on the CV outputs (right before the Op-Amps) for less slew/portamento and maybe higher output voltages.
+
+- Use Arduino interrupts to handle the gate and trigger input signals more quickly (since this is supposed to be a rather slow CV sequencer I didn't bother to do that).
+
+- Experiment with the input functionality, e.g. you could use the "Invert L2+L3 Pot" gate input to invert the L1 as well, or make it do something completely different.
