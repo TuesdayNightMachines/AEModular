@@ -1,4 +1,4 @@
-**GENERATIVE CV SEQUENCER**
+**THUNDERSOUND CV GENERATOR**
 
 AE Modular Synth Module using an Arduino Pro Micro (5V)
 
